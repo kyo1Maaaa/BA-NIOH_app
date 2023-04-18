@@ -1,0 +1,24 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+#ticket-table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#ticket-table th,
+#ticket-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#ticket-table th:nth-child(n+2) {
+    width: 100px;
+}
+
+#ticket-table td:nth-child(4) input,
+#ticket-table td:nth-child(5) input {
+    width: 90%;
+}
